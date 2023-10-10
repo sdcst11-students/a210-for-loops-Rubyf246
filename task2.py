@@ -14,3 +14,7 @@ Your GST is 2.75
 Your PST is 3.85
 Your total is 61.65
 """
+for i in range(5):
+    strNum = int(input(f"Enter in price of item #{i+1} "))
+subtotal = strNum +1 
+print(subtotal)
