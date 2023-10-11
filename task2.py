@@ -17,7 +17,6 @@ Your total is 61.65
 totalvalue= 0
 for i in range(5):
     price = float(input(f"Enter in price of item #{i+1} "))
-    intNum = float(price)
     totalvalue = price + totalvalue
 print(f'Your subtotal is {totalvalue}')
 GSTx=(totalvalue*0.05)
@@ -28,3 +27,4 @@ PST=round(PSTx,2)
 print (f'Your PST is {PST}')
 totalfinal= totalvalue+GST+PST
 print (f'Your final total is {totalfinal}')
+#kimmiw sucjs 

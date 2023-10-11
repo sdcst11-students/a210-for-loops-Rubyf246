@@ -17,3 +17,7 @@ example:
 enter a number: 4
 the sum of the series is 1234
 """
+num= int(input("Give me an number under 10:"))
+if num>10 :
+    print(f'{num} is not under ten')
+else:

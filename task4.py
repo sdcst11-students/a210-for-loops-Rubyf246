@@ -31,7 +31,7 @@ difference = totalpurchases - payoff
 interest_charge= 0.02*difference 
 if totalpurchases > payoff:
     print (f'2% interest has been charged: {interest_charge}')
-else: print(f'Your closing balance is 0')
+else: print("You aren't charged any interest")
 
 Closingbalnce= totalpurchases - payoff + interest_charge 
 print (Closingbalnce)
