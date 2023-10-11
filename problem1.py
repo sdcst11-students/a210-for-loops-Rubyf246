@@ -22,3 +22,9 @@ enter a number:4
 ****
 
 """
+
+boxnum= int(input("Enter a number:"))
+for i in range(boxnum):
+    for r in range(boxnum):
+     print("*", end = '')
+    print('')

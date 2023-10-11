@@ -37,3 +37,12 @@ example:
 Enter a number: -4
 Invalid input
 """
+
+n = int (input ("Enter a number: "))
+f = 1
+if n >= 1:
+    for i in range (1, n+1):
+        f=f *i
+    print(f'{n}! is {f}')
+else: 
+    print ("Invalid Input")
