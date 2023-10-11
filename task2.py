@@ -14,7 +14,17 @@ Your GST is 2.75
 Your PST is 3.85
 Your total is 61.65
 """
+totalvalue= 0
 for i in range(5):
-    strNum = int(input(f"Enter in price of item #{i+1} "))
-subtotal = strNum +1 
-print(subtotal)
+    price = float(input(f"Enter in price of item #{i+1} "))
+    intNum = float(price)
+    totalvalue = price + totalvalue
+print(f'Your subtotal is {totalvalue}')
+GSTx=(totalvalue*0.05)
+GST=round(GSTx,2)
+print (f'Your GST is {GST}')
+PSTx=(totalvalue*0.07)
+PST=round(PSTx,2)
+print (f'Your PST is {PST}')
+totalfinal= totalvalue+GST+PST
+print (f'Your final total is {totalfinal}')

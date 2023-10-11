@@ -23,3 +23,17 @@ Enter total payments for month(2)  : 75
 Your closing balance is $51.51
 
 """
+
+
+totalpurchases= float(input("Give me total purchases:"))
+payoff= float(input("Give me total payment:"))
+difference = totalpurchases - payoff 
+interest_charge= 0.02*difference 
+if totalpurchases > payoff:
+    print (f'2% interest has been charged: {interest_charge}')
+else: print(f'Your closing balance is 0')
+
+Closingbalnce= totalpurchases - payoff + interest_charge 
+print (Closingbalnce)
+
+
