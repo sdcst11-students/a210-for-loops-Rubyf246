@@ -17,7 +17,8 @@ example:
 enter a number: 4
 the sum of the series is 1234
 """
-num= int(input("Give me an number under 10:"))
-if num>10 :
-    print(f'{num} is not under ten')
-else:
+n= int(input("Give me an number under 10:"))
+sum = 0
+for i in range(1,n+1):
+    sum=sum*10+i
+print (f'The sum of the series in {sum}')
